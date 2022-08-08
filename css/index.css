@@ -1,0 +1,36 @@
+img.img-responsive{
+    text-align: center;
+}
+div.form-sign-in{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+#check{
+    width: 14px;
+    height: 14px;
+}
+h4{
+    font-weight: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+p.condition{
+    font-size: 12px;
+}
+div.form-sign-out{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+label.labelForm{
+    font-size: 15px;font-weight: bold;margin-top: 15px;
+}
+li{
+    list-style-type: disc;
+}

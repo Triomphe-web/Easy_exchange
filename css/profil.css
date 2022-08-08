@@ -1,0 +1,62 @@
+@font-face {
+    font-family: RobotoFlex;
+    src: url('../font/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf');
+    font-family: oleoScript;
+    src: url('../font/OleoScriptSwashCaps-Regular.ttf');
+}
+img#logo {
+    width: 160px;
+    height: 60px;
+}
+div.sidebar{
+    background-color: darkslateblue;
+}
+.profil{
+    height: 100%;
+}
+div#successPass{
+    display: none;
+}
+h1,h2{
+    font-family: oleoScript;
+}
+h4{
+    font-family: oleoScript;
+}
+i{
+    font-family: RobotoFlex;
+}
+.jumbotron {
+    text-align: center;
+    background-color: rgb(4, 9, 83);
+    color: white;
+    margin-bottom: 0;
+  }
+.numero{
+    letter-spacing: 0.1em;
+}
+div#msgPass{
+    font-family: oleoScript;
+}
+.hide{
+    display: none;
+}
+.cacher{
+    display: none;
+  }
+  .montrer{
+    display: block;
+  }
+  .loader {
+    border: 15px solid #f3f3f3; /* Light grey */
+    border-top: 15px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

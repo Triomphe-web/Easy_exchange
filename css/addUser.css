@@ -1,0 +1,23 @@
+div.form-sign-in{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+.invalid{
+    font-size: 14px;
+    color: rgba(190, 6, 6, 0.897);
+}
+.valid{
+    font-size: 14px;
+    color: rgba(6, 156, 73, 0.897);
+}
+h4{
+    font-weight: 10px;
+}
+label{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: -15px;
+}
